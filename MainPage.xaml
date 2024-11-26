@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StefanJativa_MAUI.MainPage">
 
+    <!--
+    1
+    -->
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
