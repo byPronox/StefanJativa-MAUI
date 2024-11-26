@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StefanJativa_MAUI.Page1"
+             Title="Page1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Informacion Estudiante"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            x:Name="id"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            x:Name="nombre"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            x:Name="carrera"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
